@@ -1,0 +1,224 @@
+@charset "UTF-8";
+@media (min-width:321px) and (max-width:480px)
+{
+
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('font/OpenSans-Light-webfont.eot');
+    src: url('font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Light-webfont.woff') format('woff'),
+         url('font/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('font/OpenSans-Regular-webfont.eot');
+    src: url('font/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Regular-webfont.woff') format('woff'),
+         url('font/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('font/OpenSans-Semibold-webfont.eot');
+    src: url('font/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('font/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,body,main,header {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body {
+    font: normal 13px; 
+    overflow-x:hidden; 
+    overflow-y:auto;  
+    background: no-repeat center top; 
+    background-color:#F29724;
+    font-family: 'open_sanslight'; 
+    width: 100%; 
+    height: 100%; 
+    text-align: left;   
+}
+
+#tudo{position: absolute; top: 0px; width: 100%; height: 100%;}
+
+/*  atributos gerais
+------------------------------------------------------------------------------------------------------------------*/
+/*input, textarea, form, label { font: normal 13px 'Trebuchet MS', Helvetica, sans-serif; color: #FFF;}*/
+ol, ul { list-style: none;}
+a {color: #666666; text-decoration: none;}
+a:hover {text-decoration: underline;}
+img {border: none;}
+strong{font-family: 'open_sanslight';}
+
+/*  padrao de hierarquia de titulos
+------------------------------------------------------------------------------------------------------------------*/
+h1 { font-size: 40px; width: 100%; color: #ffffff; font-family: 'open_sanslight';margin-top: 160px;float: left; text-align: left; padding-left: 30px;
+}
+
+/*  div gerais
+------------------------------------------------------------------------------------------------------------------*/
+#wrapperHome{width:100%; position: relative; float: left;}
+section #home{ background: no-repeat top center; text-align: left; height: 709px; top: 170px; left: 0px; position: absolute; width: 100%; }
+/*  topo
+------------------------------------------------------------------------------------------------------------------*/
+#contatoOver{width: 100%; position: absolute; z-index: 9999999; text-align: left; top: -268px; left: 0px; height: 255px; border-bottom: 13px solid #CCC; background: url('../images/bg_contato.jpg') no-repeat top center #000000;}
+/*section#home #contatoOver{position: relative; float: left;}*/
+#contatoOver p{float: left; height: 130px; margin-left: 100px; margin-top: 40px; color: #ffffff; font-size: 15px;}
+#contatoOver img #mapa{float: right; cursor: pointer; border: 10px #c2c2c2 solid; margin-right: 30px; margin-top: 20px;}
+
+#contentHead{position: absolute; width: 100%; left: 0px; z-index: 999999; height: 120px; background-color: #FFF;}
+header{ float: left; width: 124%; height: 120px;}
+header #logo{float: left; margin-top: 32px; width: 205px; margin-left: 5%; text-decoration: none; cursor: pointer; }
+
+header nav{float: right; margin-top:30px; margin-right: 41%; width: 358px; height: 55px;}/*posicao do menu*/
+header nav ul{float: left;}
+header nav ul li{float: left; line-height: 40px; position: relative; margin-right: 40px; color: #363636; font-size: 16px; font-family: 'open_sansregular';}
+header nav ul li:hover, header nav ul li.active{color: #ECC695; text-decoration: none; cursor: pointer;}
+
+header nav ul li .seta{background: url('../images/seta_menu.png') no-repeat bottom right; width: 72px; height: 24px;}
+
+header nav ul li .submenu{float: left; display: none; position: absolute; top: 29px; width: 200px;}
+header nav ul li .submenu ul{float: left; width: 160px; background: #ffffff;}
+header nav ul li .submenu ul li{float: left; color: #666666; font-size: 13px; text-align: center; width: 200px; margin-left: -40px; height: 37px; line-height: 37px; border-bottom:1px solid #e3e3e3;}
+header nav ul li .submenu ul li.first{border-bottom: 13px solid #F09721; width: 200px; height: 45px;} 
+header nav ul li .submenu ul li.last{border-bottom: 0px;}
+header nav ul li .submenu ul li:hover{color: #ECC695;}
+
+header nav ul li#agenciaLink .submenu{left: -2px;}
+header nav ul li:hover .submenu{display: block;}
+
+header #complementoHead{ display: flex; float: right;  width: 250px; height: 137px; margin-top: -85px; margin-right: 20%;}
+header #complementoHead #linha1, header #complementoHead #linha2{border-left: 1px solid #CCC; height: 85px; width: 1px; margin-left: 10px; margin-right: 10px;}
+header #complementoHead #contato{text-decoration: none; cursor: pointer; margin: 50px 10px auto; color: #CCC; font-size: 20px; font-family: 'open_sanslight';}
+header #complementoHead #contato:hover{text-decoration: none; cursor: pointer; margin: 50px 10px auto; color: #ECC695;}
+header #complementoHead > #facebook, #in, #laboratorio{ text-decoration: none; cursor: pointer; margin: 55px 2px auto;}
+header #complementoHead > #facebook:hover, #in:hover, #laboratorio:hover{text-decoration: none; cursor: pointer; opacity: 0.5;}
+
+/*  Comtato Conteudo Home
+------------------------------------------------------------------------------------------------------------------*/
+.content{  width: 100%; position: relative; margin:0px auto;}
+
+#textoPrincipal{color: #FFF; text-decoration: none; cursor: pointer; font-size: 45px; font-family: 'open_sanslight';}
+#textoPrincipalMetodo{color: #FFF; text-decoration: none; cursor: pointer; font-size: 20px; font-family: 'open_sanslight';}
+#textoSecundario{color: #524743; text-decoration: none; cursor: pointer; font-size: 21px; font-family: 'open_sansregular';}
+
+#home #textoA
+{
+    width: 300px;
+    margin: -371px 14% auto;
+    text-align: right;
+}
+
+#home #textoA:hover{text-decoration: none; cursor: pointer; opacity: 0.5;}
+
+#home #textoB
+{
+    width: 300px;
+    margin: -205px 63% auto;
+    text-align: left;
+}
+
+#home #textoB:hover{text-decoration: none; cursor: pointer; opacity: 0.5;}
+
+#home #textoC
+{
+    width: 140px;
+    /* height: 10px; */
+    margin: 279px auto;
+    text-align: center;
+}
+
+#home #textoC:hover{text-decoration: none; cursor: pointer; opacity: 0.5;}
+
+#home #sombra
+{
+    width: 100%;
+    height: 88px;
+    margin: -172px auto;
+    background: url('../images/home/sombra2.png') no-repeat top center;
+    
+}
+
+#home #metodo
+{
+    width: 100%;
+    height: 238px;
+    margin: -411px auto;
+    background: url('../images/home/circulo_metodo.png') no-repeat top center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#home #centro
+{
+    width: 100%;
+    height: 672px;
+    margin: -589px 0px auto;
+    background: url('../images/home/divisor.png') no-repeat top center;
+
+}
+
+#home #curva1
+{
+    width: 100%;
+    height: 794px;
+    background: url('../images/home/curva1.png') no-repeat top center;
+}
+
+#home #curva2
+{
+    width: 100%;
+    height: 712px;
+    margin: -798px 0px auto;
+    background: url('../images/home/curva2.png') no-repeat top center;  
+}
+
+
+/*  rodape
+------------------------------------------------------------------------------------------------------------------*/
+footer{float:left; width: 100%; left: 0px;   position: fixed; z-index: 9999; bottom: 0px;}
+footer #rodape{width: 100%; background: #333333; height: 87px; float: left;}
+footer #rodape #localizacao{width: 485px; height: 40px; margin: 20px 10% auto; color: #9D9D9D; text-decoration: none; font-size: 12px; font-family: 'open_sanssemibold';}
+footer #rodape #localizacao a:hover{color: #FFF; text-decoration: none; cursor: pointer;}
+
+
+footer ul{float: left;margin-left: 160px;}
+footer ul li{float: left; padding-right: 40px; margin-left: 20px; font-size: 14px; line-height: 52px; color: #ffffff; font-family: 'open_sanssemibold';}
+footer ul li a{color: #ffffff;}
+footer ul li.last{background: none;}
+
+.redesRD{width: 300px; height: 35px; margin: -25px 0% auto; display: flex; float: right;}
+.redesRD div{ width: 35px; height: 35px;}
+.redesRD #facebookRD{background: url('../images/facebook_rodape.png') no-repeat top center;}
+.redesRD #inRD{background: url('../images/in_rodape.png') no-repeat top center;}
+.redesRD #laboratorioRD{background: url('../images/lab_rodape.png') no-repeat top center;}
+.redesRD #designideias{background: url('../images/designideia.png') no-repeat top center; margin-left: 120px;}
+
+.redesRD #facebookRD:hover{opacity: 0.5; text-decoration: none; cursor: pointer;}
+.redesRD #inRD:hover{opacity: 0.5; text-decoration: none; cursor: pointer;}
+.redesRD #laboratorioRD:hover{opacity: 0.5; text-decoration: none; cursor: pointer;}
+.redesRD #designideias:hover{opacity: 0.5; text-decoration: none; cursor: pointer;}
+
+
+}
+
+
