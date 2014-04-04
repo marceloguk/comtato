@@ -1,0 +1,22 @@
+@import "cssreset.css";
+
+li {
+	display: inline;
+	position: relative;
+	margin-left: 30px;
+}
+
+img{
+	width:64px; height: 64px;
+	-webkit-filter: blur(2px) grayscale(1);
+}
+
+img:hover{
+	width: 128px; height: 128px;
+	cursor: pointer;
+	-webkit-transform: rotate(360deg);
+	-webkit-filter: none;
+	transition-property: all;
+	transition-duration: 0.5s;
+transition-timing-function: cubic-bezier(.97, .22, .27, .88);
+};

@@ -1,0 +1,40 @@
+<script type="text/javascript">
+var dia  = document.getElementById("dia");
+var mes  = document.getElementById("mes");
+var ano  = document.getElementById("ano");
+
+var opcoesdia = "<select name='dia' id='sdia'>\n\t";
+for (var i = 1; i <= 31; i++) {
+	opcoesdia += "<option value='"+i+"'>"+i+"</option>";
+};
+opcoesdia += "</select>";
+dia.innerHTML = opcoesdia;
+
+var nomeMes = new Array(12);
+nomeMes[1] = "Jan";
+nomeMes[2] = "Fev";
+nomeMes[3] = "Mar";
+nomeMes[4] = "Abr";
+nomeMes[5] = "Mai";
+nomeMes[6] = "Jun";
+nomeMes[7] = "Jul";
+nomeMes[8] = "Ago";
+nomeMes[9] = "Set";
+nomeMes[10] = "Out";
+nomeMes[11] = "Nov";
+nomeMes[12] = "Dez";
+
+var opcoesmes = "<select name='mes' id='smes'>\n\t";
+for (var i = 1; i <= 12; i++) {
+	opcoesmes += "<option value='"+i+"'>"+nomeMes[i]+"</option>";
+};
+opcoesmes += "</select>";
+mes.innerHTML = opcoesmes;
+
+var opcoesano = "<select name='ano' id='sano'>\n\t";
+for (var i = 2013; i >= 1905; i--) {
+	opcoesano += "<option value='"+i+"'>"+i+"</option>";
+};
+opcoesano += "</select>";
+ano.innerHTML = opcoesano;
+	</script>

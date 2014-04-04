@@ -1,0 +1,23 @@
+
+
+www.zend.com
+ products/Zend Server
+Descrição: Servidor de aplicações PHP, ele instala um servidor web, neste caso o apache.
+
+Por causa dele podemos chamar na url localhost:80 ou :8080
+
+Bonjour (Apple)
+Descrição: Responsável por monitorar os aparelhos wireless que estão conectados.
+
+Na máquina desktop ou notebook, Adobe Edge Inspect
+www.adobe.com  baixa o creative cloud
+
+ 
+chrome.google.com/webstore procurar por Adobe Edge Inspect
+
+Dispositivo: appStore ou Google Play
+
+Rede Wireless
+
+
+

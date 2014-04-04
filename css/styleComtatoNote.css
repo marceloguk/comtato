@@ -400,7 +400,7 @@ header #complementoHead > #facebook:hover, #in:hover, #laboratorio:hover{text-de
 {
     width: 960px;
     height: 100%;
-    margin: auto;
+    margin: -85px auto;
 
 }
 
@@ -596,6 +596,7 @@ header #complementoHead > #facebook:hover, #in:hover, #laboratorio:hover{text-de
 #textoMet2
 {
   color: #FF6633;
+  font-size: 27px
 }
 
 #graficoMet
@@ -639,6 +640,7 @@ header #complementoHead > #facebook:hover, #in:hover, #laboratorio:hover{text-de
 #textoMet4 span
 {
   color: #FF6633;
+  font-size: 25px;
 }
 
 #boxInf2Mei
@@ -660,40 +662,48 @@ header #complementoHead > #facebook:hover, #in:hover, #laboratorio:hover{text-de
   height: 2px;
   border-top: 1px solid #FF6633;
   position: absolute;
-  margin-top: 80px;
+  margin-top: 122px;
   margin-left: 165px;
 }
 
 #balao1
 {
-  width: 200px;
+  width: 320px;
   height: 200px;
-  margin: auto;
+  margin: 47px auto;
+  position: absolute;
   margin-bottom: 10px;
   background: url('../images/balao1.png') no-repeat top center;
+
 }
 
 #textoMet5
 {
   font-weight: 300;
+  font-size: 16px;
+  margin-top: 230px;
+  width: 320px;
+  height: 189px;
 }
 
 #balao2
 {
-  width: 200px;
+  width: 320px;
   height: 200px;
-  margin: auto;
+  margin: 47px auto;
   margin-bottom: 10px;
   background: url('../images/balao2.png') no-repeat top center;
+  position: absolute;
 }
 
 #balao3
 {
-  width: 200px;
+  width: 320px;
   height: 200px;
-  margin: auto;
+  margin: 47px auto;
   margin-bottom: 10px;
   background: url('../images/balao3.png') no-repeat top center;
+  position: absolute;
 }
 
 #bannerMet
@@ -722,6 +732,9 @@ header #complementoHead > #facebook:hover, #in:hover, #laboratorio:hover{text-de
   float: left;
   text-align: center;
   font-weight: 300;
+  font-size: 14px;
+  margin-left: 70px;
+  margin-top: 10px;
 }
 
 #logoBanner
@@ -735,35 +748,49 @@ header #complementoHead > #facebook:hover, #in:hover, #laboratorio:hover{text-de
   -ms-background-size: 100% 100%;
   -o-background-size: 100% 100%;
   background-size: 100% 100%;
+  margin-right: 130px;
+  margin-top: 10px;
 }
 
 #linhaHMet
-{
-  width: 181px;
-  height: 2px;
-  border-top: 1px solid #FF6633;
-  float: right;
-  margin: -5px -25px;
-}
-
-#linhaV2Met
 {
   width: 132px;
   height: 2px;
   border-top: 1px solid #FF6633;
   float: right;
-  margin: 11px 348px;
+  margin: -17px -25px;
+}
+
+#linhaV2Met
+{
+  width: 116px;
+  height: 2px;
+  border-top: 1px solid #FF6633;
+  float: right;
+  margin: 19px 364px;
   position: absolute;
 }
 
 #linhaH2Met
 {
   width: 2px;
-  height: 190px;
+  height: 196px;
   border-right: 1px solid #FF6633;
   float: right;
-  margin-top: 11px;
+  margin-top: 19px;
 }
+
+#textoMet1
+{
+  margin-top: -6px;
+}
+
+#textoMet3{color:#666666; font-size: 16px;}
+#textoMet3 span{
+  color:#333333;
+  font-size: 20px;
+}
+
 
 
 

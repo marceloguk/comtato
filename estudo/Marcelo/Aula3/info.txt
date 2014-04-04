@@ -1,0 +1,6 @@
+SVG - vetor > qualidade grafica mantida > tag path
+CANVAS - desenho d objetos, linhas, atribuir imagens, imagens sobrepostas > ganho de aceleração gráfica
+
+ext.js
+raphael
+sencha

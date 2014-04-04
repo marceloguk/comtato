@@ -1,0 +1,266 @@
+﻿/*HTML5*/
+body{
+margin:0px;
+}
+
+#principal{
+width:80%;
+margin:auto;
+background:#ccc;
+padding:1%;
+}
+
+#principal header {
+width:78%;
+background:#000;
+position:fixed;
+color:#fff;
+font-size:40px; padding-left:1%;
+z-index:2;
+}
+
+nav{
+position:fixed;
+width:79%;
+background:#909090;
+top:53px;
+padding-bottom:10px;
+z-index:3;
+}
+
+#s1{
+margin-top:110px;
+}
+
+ol {
+width:79%;
+margin:auto;
+padding-top:10px;
+}
+
+nav ol li {
+list-style:none;
+float:left;
+margin-right:4px;
+font:13px "Georgia";
+background:#fafafa;
+border-radius:0px 8px 0px 8px;
+box-shadow:2px 2px 3px #000;
+padding:4px;
+}
+
+nav a {
+text-decoration:none;
+}
+nav a:link{
+color:#000;
+}
+
+nav a:visited{
+color:#080;
+}
+
+article:nth-child(2n){
+background:#000;
+color:#fff;
+padding:1%;
+width:96.5%;
+font:15px "Verdana";
+border:none;
+float:left;
+}
+article {
+border:2px dashed #909090;
+border-radius:0px 10px 0px 10px;
+margin-bottom:8px;
+text-shadow:2px 2px 2px #999;
+}
+@font-face{
+font-family:"Even";
+src:url("Even Badder Mofo.ttf");
+}
+
+#principal section header{
+width:97.4%;
+height:100px;
+display:block;
+font-family:"Even";
+font-size:50px;
+position:relative;
+border-radius:0px 4px 4px 0px;
+z-index:1;
+}
+
+#boxLista,#fornec,#colab,#gest{
+float:left;
+width:auto;
+min-height:50px;
+background:#fafafa;
+margin-right:10px;
+border-radius:8px;
+margin-bottom:10px;
+padding:12px;
+color:#000;
+}
+
+#boxLista a,#fornec a,#colab a,#gest a{
+width:90%;
+height:auto;
+display:block;
+background:#909090;
+margin-top:8px;
+cursor:pointer;
+padding:4px;
+text-align:center;
+box-shadow:2px 2px 2px #000;
+}
+
+article p{
+clear:left;
+}
+
+/*TASK LIST*/
+#box{
+width:200px;
+height:auto;
+background:#ccc;
+border:dashed 2px #fff;
+padding:10px;
+color:#000;
+}
+#box li {
+border:solid 1px #999;
+background:#99ccff;
+margin-bottom:4px;
+padding:4px;	
+}
+
+#c1,#c2,#c3,#c4,#c5{
+margin-top:15px;
+background:#fff;
+}
+
+#img1,#img2{
+display:none;
+}
+
+form#pagamento{
+width:600px;
+background:#99ccff;
+border-radius:5px;
+}
+
+form#pagamento fieldset{
+border:none;
+}
+
+form#pagamento legend {
+color:#000;
+font-size:14px;
+font-weight:bold;
+padding-bottom:10px;
+padding-top:20px;
+text-shadow:2px 2px 1px #fff;
+}
+
+/* TIPO DE CARTAO */
+form#pagamento fieldset fieldset legend{
+color:#111;
+font-size:20px;
+text-transform:uppercase;
+font-weight:normal;
+padding-bottom:0px;
+}
+form#pagamento ol ol li{
+background:#99ffff;
+float:left;
+padding-left:10px;
+padding-bottom:10px;
+border:solid 2px #ccc;
+}
+form#pagamento ol {
+margin:0px;
+}
+form#pagamento ol li{
+list-style:none;
+background:#99ddff;
+padding:8px;
+}
+form#pagamento label{
+float:left;
+width:180px;
+font-size:16px;
+text-align:right;
+}
+
+svg{
+background:#999;
+width:80%;
+}
+
+svg circle{
+fill:red;
+stroke-width:3;
+stroke:#000;
+}
+
+svg rect{
+fill:rgba(120,210,80,0.4);
+stroke-width:5;
+stroke:#000;
+}
+
+svg text{
+fill:blue;
+font:80px "Even";
+}
+
+svg polygon{
+fill:rgba(150,150,30,0.5);
+stroke-width:5px;
+stroke:#339;
+fill-rule:evenodd;
+}
+
+nav#ajaxTXT{
+position:relative;
+background:none;
+display:table;
+top:10px;
+color:#000;
+float:left;
+}
+
+#n1,#n2{
+cursor:pointer;
+}
+
+#infoTXT{
+display:table;
+}
+
+.ajuste{
+width:200px;
+height:auto;
+border:dashed	 3px #f00;
+}
+
+.p3{
+border-radius:10px;
+width:90%;
+background:#ccccfa;
+padding:4%;
+}
+
+form#db1 label
+{
+	float:left;
+	width:150px;
+	margin-top:5px;
+}
+
+form#db1 input
+{
+	display:block;
+	margin-top:5px;
+}

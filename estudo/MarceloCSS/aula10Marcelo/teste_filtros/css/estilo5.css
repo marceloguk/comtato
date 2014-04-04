@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+/*Utilizamos # para atributos "id"*/
+#topo {
+	min-width: 320px;
+	max-width: 1380px;
+	background-color: #000;
+	color: #eee;
+	font-size: 10px;
+	font-family: arial;
+}
+/*Utilizamos . para atributos "class"*/
+ .menu li {
+ 	display: inline;
+ 	left: 40px;
+ 	position: relative;
+ }
+/*
+.li-tres {
+	
+}
+main nav ul li:nth-child(3) {
+
+}
+
+ li:nth-child(odd){
+ 	background-color: #ccc;
+ }
+
+tr:first-child{
+
+}
+*/

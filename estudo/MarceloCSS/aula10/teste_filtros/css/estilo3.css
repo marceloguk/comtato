@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	font-style: oblique;	
+	color: #00f;
+}
+
+

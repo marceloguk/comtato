@@ -1,0 +1,241 @@
+﻿<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>HTML5 Impacta</title>
+		<meta name="author" content="Fred Astaire">
+		<meta name="keywords" content="treinamentos,html5,javascript">
+		<meta name="description" content="Capacitação em TI para diversas áreas!">
+		<meta name="title" content="Promoção para o primeiro trimestre de 2014.">
+		<link rel="stylesheet" href="css/estilo.css" type="text/css" />
+	</head>
+	<body>
+	<!-- Comentários... -->
+		<div id="principal">
+		<header>HTML5 Impacta</header>
+<nav>
+	<ol>
+		<li>
+	<a href="#principal">Drag and Drop</a></li>
+	    <li>
+	<a href="#s2">Storage</a></li>
+			<li>
+	<a href="#s3">WEB SQL</a></li>
+			<li>
+	<a href="#s4">Offline</a></li>
+			<li>
+	<a href="#s5">Canvas</a></li>
+			<li>
+	<a href="docs/html5.html#s1">SVG</a></li>
+			<li>
+	<a href="docs/html5.html#s2">Web Worker/Sockets</a></li>
+			<li>
+	<a href="docs/html5.html#s3">Parallax</a></li>
+			<li>
+	<a href="docs/html5.html#s4">Ajax</a></li>
+	<li>
+	<a href="docs/html5.html#s5">Formulário</a></li>
+	<li>
+	<a href="docs/html5.html#s6">Geo</a></li>
+			</ol>
+		</nav>
+		<!-- Seção 1 -->
+		<section id="s1">
+			<header>D R A G AND D R O P</header>
+			<article>
+			<p>
+			<h1>Eventos</h1>
+			<ol>
+			<li>onDrop</li>
+			<li>onDragStart</li>
+			<li>onDragOver</li>
+			<li>Utilize o atributo draggable para permitir o arraste</li>
+			</ol>
+			</p>
+		<div id="boxLista" ondrop="soltar(this,event)" ondragover="desbloquear(event);">
+		<a draggable="true" id="maria" ondragstart="arrastar(this,event);">Maria</a>
+		<a draggable="true"id="pedro" ondragstart="arrastar(this,event);">Pedro</a>
+		<a draggable="true" id="joao" ondragstart="arrastar(this,event);">João</a>
+		<a draggable="true" id="antonio" ondragstart="arrastar(this,event);">Antonio</a>
+		<a draggable="true" id="luis" ondragstart="arrastar(this,event);">
+			 Luis</a>
+		<a draggable="true" id="sergio" ondragstart="arrastar(this,event);">Sergio</a>
+		<a draggable="true" id="mussum" ondragstart="arrastar(this,event);">Mussum</a>
+		<a draggable="true" id="ratinho" ondragstart="arrastar(this,event);">Ratinho</a>
+			</div>
+			<div id="colab" ondrop="soltar(this,event)" ondragover="desbloquear(event);">COLABORADOR</div>
+			<div id="fornec" ondrop="soltar(this,event)" ondragover="desbloquear(event);">FORNECEDOR</div>
+			<div id="gest" ondrop="soltar(this,event)" ondragover="desbloquear(event);">GESTOR</div>
+				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+			</article>
+			<article>
+				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+			</article>
+			<footer></footer>
+		</section>
+		<!-- Seção2 -->
+		<section id="s2">
+			<header>S T O R A G E</header>
+			<article>
+			<p>
+			<h1>Local Storage</h1>
+			Gera armazenagem de texto no navegador por tempo indefinido.		
+			</p>
+	<div id="mensagem"></div>
+	<form id="aut">
+		<fieldset>
+			<legend>Autenticação<legend>
+			 <label>Nome:</label>
+			 <input name="nome" id="nome" />
+			 <label>Email:</label>
+			 <input name="email" id="email" />
+		</fieldset>
+  <input type="submit" value="Confirmar" onclick="local();" />
+	</form>
+	<h1>Session Storage</h1>
+	<p>
+	Gera armazenamento de texto enquanto a sessão do navegador estiver em aberto.
+	</p>
+	<h2>Número de acessos durante a sessão[Enquanto navegador aberto]</h2>
+	<div id="contador"></div>
+				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+			</article>
+			<article>
+			<h1>TASK LIST com LocalStorage</h1>
+				<div id="box">
+					<ol id="tarefa" contenteditable="false">
+					<li></li>
+					</ol>
+				<input type="button" name="btEdit" id="btEdit" value="Editar" />
+				<input type="button" name="btLimpar" id="btLimpar" value="Limpar" />
+				</div>
+				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+			</article>
+			<footer></footer>
+		</section>
+		<!-- Seção 3 -->
+		<section id="s3">
+			<header>W E B .. S Q L</header>
+			<article>
+			<p>
+			<h1>Criando uma base de dados no navegador</h1>
+			Com WEBSql criamos dataBases e suas respectivas tabelas. Utilizando a linguagem SQL com suas cláusulas (CREATE TABLE,INSERT,SELECT,DELETE,UPDATE)
+			<ol>
+			<li>
+			openDatabase = abre a conexão com o banco de dados
+			</li>
+			<li>
+			transaction/executeSql = possibilita a execução da uma cláusula SQL
+			</li>
+			</ol>
+			<div id='dbase1'></div>
+			</p>
+			<form id="db1">
+			<fieldset>
+			<legend>Cadastro</legend>
+			<label>Nome:</label>
+  <input type="text" name="nome" />
+			<label>ID:</label>
+<input type="text" name="id" />
+			<label>Treinamento:</label>
+ <input type="text" name="treina" />
+			<label>Categoria:</label>
+ <input type="text" name="cat" />
+			</fieldset>
+<input type="button" value="Cadastrar" id="bt01" />
+			</form>
+				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+			</article>
+			<article>
+				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+			</article>
+			<footer></footer>
+		</section>
+		<!-- Sessão 4 -->
+		<section id="s4">
+			<header>O F F ..  L  I N  E</header>
+			<article>
+			<h1>Manifesto</h1>
+			<p><ol>
+			<li>Crie um arquivo com extensão .manifest</li>
+			<li>Associe o arquivo manifesto ao html < html manifest="arquivo.manifest" > </li>
+			<li>Conteudo do arquivo:<hr />
+			<pre>
+			CACHE MANIFEST
+			# 2014-01-29
+
+			#Arquivos a serem cacheados
+			CACHE:
+			/Roque/imagens/engrenagem.png
+			/Roque/imagens/star.png
+			/Roque/css/estilo.css
+			/Roque/docs/offline-teste.html
+
+			#Arquivos que nunca devem ficar em cache
+			#E por sua vez não ficarão disponíveis offline
+
+			NETWORK:
+			*
+			../css/Even Bader Mofo.ttf
+		</pre>
+			</li>
+			<li>Para testar abra o arquivo html em localhost ou num servidor WEB. Depois desconecte o serviço ou a internet<hr /></li>
+			<li>Exemplo:<br />
+			<p><a href="http://localhost/Roque/docs/offline-teste.html" style="color:#f00">HTML com AppCache</a></p>
+			
+			<a href="cache.manifest" style="color:#f00">Arquivo .manifest</a>
+			</li>
+			</ol></p>
+			
+				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+			</article>
+			<article>
+				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+			</article>
+			<footer></footer>
+		</section>
+		<!-- Sessão 5 -->
+		<section id="s5">
+			<header>C A N V A S</header>
+			<article>
+			<p>
+			<h1>CANVAS 2d</h1>
+			Adicione imagens, crie desenhos, textos e efeitos de sombra. O tag canvas possibilita aceleração gráfica as imagens e videos contidos dentro dele.
+			<canvas id="c1" width="500" height="400"></canvas>
+			<img src="imagens/engrenagem.png" id="img1" />
+			<img src="imagens/icone1.png" id="img2" />
+			</p>
+			<p>
+	<h1>Criando Círculos e Retângulos</h1>
+			O canvas permite a criação de objetos como círculos e retângulos.
+			<canvas id="c2" width="500" height="400">
+			<!-- pense numa alternativa para substituir o que há no canvas por uma imagem estática. A frase abaixo não serve para o usuário, apenas para os testes de desenvolvimento -->
+			Seu navegador não tem suporte a CANVAS
+			</canvas>
+			<canvas id="c3" width="500" height="400"></canvas>
+			</p>
+			<p>
+			<h1>Animação em CANVAS</h1>
+			Para animar o canvas utliza-se o método setInterval que repete a função em milisegundos. É necessário limpar o retangulo que é criado dinamicamente para não gerar peso de processo (clearRect)
+			<canvas id="c4" width="500" height="400"></canvas>
+			</p>
+			<p>
+			<h1>Efeitos de composição (Mascaras)</h1>
+			Lighter,Darker,Top,Xor,Source-over entre outros. Criam efeitos de composição entre dois  objetos.
+			<canvas id="c5" width="500" height="400"></canvas>
+			</p>
+			<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+			</article>
+			<article>
+				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+			</article>
+			<footer></footer>
+		</section>
+		<footer></footer>
+		<aside></aside>
+	</div>
+	<script src="js/drag.js" type="text/javascript"></script>
+	<script src="js/storage.js" type="text/javascript"></script>
+	<script src="js/canvas.js" type="text/javascript"></script>
+	<script src="js/websql.js" type="text/javascript"></script>
+	</body>
+</html>

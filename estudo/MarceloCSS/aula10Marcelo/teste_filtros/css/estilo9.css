@@ -1,0 +1,23 @@
+@import "cssreset.css";
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	margin: 80px 0 0 20px;
+}
+div {
+	width: 300px;
+}
+h2{
+	transition-duration: 1s;
+}
+h2:hover {
+-webkit-transform: translateY(80px) scale(1.5) skew(-20deg);
+	transform: translateY(80px) scale(1.5);
+	transition-duration:1s;
+	cursor: pointer;
+	background: #ccc; height: 40px; line-height: 40px;
+	text-align: center; opacity: 0.8;
+}
+p{
+	margin: 0 ; text-align: justify;
+}

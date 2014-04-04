@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import "estilo3.css";
+/*
+Dividimos as principais propriedades da CSS
+em 4 categorias
+ -Propriedades de formatação de texto
+ -Propriedades de formatação de posicionamento e alinhamento
+ -Propriedades de formatação de imagens e formulários
+ -Propriedades de Interatividade.
+
+*/
+display: box
+
+display: flex
+
+
