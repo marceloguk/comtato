@@ -31,8 +31,8 @@
 	
 	<!-- LayerSlider script files -->
 	<script src="<?php echo get_template_directory_uri(); ?>/LayerSlider-5.1.0/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/LayerSlider-5.1.0/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
-
+	<!--<script src="<?php echo get_template_directory_uri(); ?>/LayerSlider-5.1.0/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+-->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styleComtatoMobile.css" media="screen" type="text/css"/> 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styleComtatoNote.css" media="screen" type="text/css"/> 
