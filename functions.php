@@ -5,8 +5,6 @@ add_theme_support( 'post-thumbnails' );
 add_image_size( 'portfolio-preview', 600, 400, true );
 add_image_size( 'projeto_thumb', 113, 113, true );
 
-
-
 function create_post_type() {
 	register_post_type( 'portfolio',
 		array(
@@ -42,7 +40,7 @@ function create_post_type() {
 
 function add_bootstrap_js()
 {
-    wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.js', array( jquery ), '1', true );
+    wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.js', array(jquery), '1', true );
     wp_enqueue_script( 'bootstrap-js' );
 }
 
