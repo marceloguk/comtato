@@ -1,9 +1,0 @@
-paralax 
-
-window document - pagina
-section - trabalhar com background fixed
-div - sprite
-
-
-data-type para dizer se eh  sprite ou backgroud
-data-speed - velocidade
