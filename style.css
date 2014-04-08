@@ -33,3 +33,7 @@ div#carousel-portfolio {
 	width: 600px;
 	display: block;
 }
+
+#portfolioSearch {
+	float: right;
+}
