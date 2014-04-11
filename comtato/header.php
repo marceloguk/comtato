@@ -6,7 +6,6 @@
     <meta name="keywords" content="palavras chave, separadas, por virgula">
     <meta name="reply-to" content="contato@comtato.com.br">
     <meta name="developer" content="Marcelo Nogueira">
-    <meta name="developer" content="Marco Macarena">
     <meta name="design" content="Design de Ideias">
     <meta name="copyright" content="Copyright © 2014. Comtato">
     <meta http-equiv="Content-language" content="pt-BR">
@@ -57,7 +56,22 @@
 	</style>
 </head>
 
-<body <?php body_class(); ?>>
+<body>
+
+	<div id="contatoOver">
+        <div class="content">
+        	<div id="conteudoTpo">
+	            <p>
+	            	<span style="color:#f19822; font-size: 20px;">Com Tato Agência Sociocriativa</span><br><br>
+	                Rua Pedroso Alvarenga, 1177 - cj 11 - Itaim Bibi<br>
+	                CEP 04531-012 - São Paulo - SP - Brasil<br>
+	                Fone 55 11 3815 0282 / 3813 0779<br>
+	                contato@comtato.com.br<br>
+	            </p>
+	            <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29253.11814721239!2d-46.68056489416495!3d-23.581377936784364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce570caa361e7d%3A0xcce3b5ca1998027a!2sCom+Tato+-+Ag%C3%AAncia+Cultural!5e0!3m2!1spt-BR!2sbr!4v1392701465803" width="530" height="200"></iframe>
+        	</div>
+        </div>
+    </div>
 
 	<div id="contentHead">
         <div class="content">

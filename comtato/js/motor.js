@@ -30,8 +30,11 @@ $(document).ready(function(){
     //$("body").css("height","400px");
 
   $('#contato').click(function() {
+
     if($("#contatoOver").css("top") == "-268px")
     {
+
+
         $('#contatoOver').animate({"top": '0'});
         $('#tudo').animate({"top": '268px'});
         $('#contentHead').animate({"top": '268px'});
